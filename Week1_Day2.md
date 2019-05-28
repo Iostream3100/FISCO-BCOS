@@ -1,6 +1,6 @@
 # FISCO-BCOS控制台使用实验报告       -Feng Yun
 ## 1. 查看区块高度
-
+!(https://github.com/TalkativeSpider/FISCO-BCOS/blob/master/lab1/1.png?raw=true)
 ## 2. 获取区块数据
 
 ## 3. 部署HelloWorld智能合约
