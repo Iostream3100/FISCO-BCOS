@@ -1,4 +1,7 @@
 # FISCO-BCOS控制台使用实验报告       -Feng Yun
+
+
+
 ## 1. 查看区块高度
 ![](https://github.com/TalkativeSpider/FISCO-BCOS/raw/master/lab1/1.png)
 
@@ -39,4 +42,12 @@
 ## 10. 获取区块数据
 
 ![](https://github.com/TalkativeSpider/FISCO-BCOS/raw/master/lab1/10.png)
+
+
+
+
+
+>
+
+
 
