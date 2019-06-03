@@ -2,23 +2,31 @@
 
 1. help() [Line 38]
 
-   ​	打印出该控制台的命令列表与参数。
+   ​		打印出该控制台的命令列表与参数。
 
 2. LOG_WARN() [Line 67]
 
-   ​	报告WARNING。
+   ​		报告WARNING。
 
 3. LOG_INFO() [Line 73]
 
-   ​	报告信息。
+   ​		报告信息。
 
 4. parse_params() [Line 79]
 
+   ​		解析输入的参数。
+
 5. print_result() [Line 118]
+
+   ​		打印出控制台的当前信息，包括开始端口、服务器IP、状态类型、RPC收听IP、SDK PKCS12密码、输出目录、证书认证key目录、国密模式。
 
 6. fail_message() [Line 140]
 
+   ​		打印失败信息。
+
 7. check_env() [Line 148]
+
+   ​		检查环境，查看openssl是否安装并检测记录系统。
 
 8. check_and_install_tassl() [Line 167]
 
