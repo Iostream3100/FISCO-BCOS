@@ -30,23 +30,45 @@
 
 8. check_and_install_tassl() [Line 167]
 
+   ​		检查tassl是否安装，如未安装则安装。
+
+   ​		tassl为完全支持国密体系的openssl。
+
 9. getname() [Line 178]
+
+   ​		获取名称。
 
 10. check_name() [Line 190]
 
+    ​		检查名称是否符合。
+
 11. file_must_exists() [Line 199]
+
+    ​		检查文件是否存在，若不存在则输出相应信息。
 
 12. dir_must_exists() [Line 206]
 
+    ​		检查目录是否存在，若不存在则输出相应信息。
+
 13. dir_must_not_exists() [Line 213]
+
+    ​		检查目录是否不存在，若存在则输出相应信息。
 
 14. gen_chain_cert() [Line 220]
 
+    ​		生成链证书。
+
 15. gen_agency_cert() [Line 234]
+
+    ​		生成代理证书。
 
 16. gen_cert_secp256k1() [Line 259]
 
+    ​		获取secp256k1的证书，其中secp256k1是指比特币中使用的ECDSA（椭圆曲线数字签名算法）曲线的参数。
+
 17. gen_node_cert() [Line 274]
+
+    ​		生成节点的证书。其中先检验openssl版本是否支持secp256k1，若不支持则提示升级。
 
 18. generate_gmsm2_param() [Line 303]
 
