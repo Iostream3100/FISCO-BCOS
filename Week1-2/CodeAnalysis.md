@@ -72,35 +72,85 @@
 
 18. generate_gmsm2_param() [Line 303]
 
+    ​		产生国密sm2参数。
+
 19. gen_chain_cert_gm() [Line 314]
+
+    ​		根据国密证书和国密sm2加密算法生成链证书。
 
 20. gen_agency_cert_gm() [Line 340]
 
+    ​		根据国密标准生成代理证书。		
+
 21. gen_node_cert_with_extensions_gm()  [Line 364]
+
+    ​		根据扩展国密标准生成节点证书。
 
 22. gen_node_cert_gm() [Line 378]
 
+    ​		根据国密标准生成节点证书。
+
 23. generate_config_ini() [Line 418]
+
+    ​		生成配置信息。
 
 24. generate_group_genesis() [Line 498]
 
+    ​		生成组创始信息。
+
 25. generate_group_ini() [Line 529]
+
+    ​		生成组初始化信息。
 
 26. generate_cert_conf() [Line 548]
 
+    ​		生成证书配置信息。
+
 27. generate_script_template() [Line 584]
+
+    ​		生成脚本模板。
 
 28. generate_cert_conf_gm() [Line 595]
 
+    ​		根据国密标准生成证书配置。
+
 29. generate_node_scripts() [Line 720]
+
+    ​		生成节点脚本。
 
 30. genTransTest() [Line 793]
 
+    ​		进行传输测试。
+
 31. generate_server_scripts() [Line 858]
+
+    ​		生成服务器脚本。
 
 32. parse_ip_config() [Line 888]
 
+    ​		解析ip配置。
+
 33. main() [Line 904]
+
+    ​		[Line 906-917] 指定输出目录并获取ip。
+
+    ​		[Line 920-921] 检测目录是否不存在并建立目录。
+
+    ​		[Line 923-926] 获取fisco版本 。
+
+    ​		[Line 928-959] 下载fisco-bcos并检查二进制。
+
+    ​		[Line 960-965] 生成证书配置信息
+
+    ​		[Line 967-972] 
+
+    ​		[Line -] 
+
+    ​		[Line -] 
+
+    ​		[Line -] 
+
+    ​		[Line -] 
 
     
 
